@@ -1,0 +1,542 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Akapril</title>
+
+<link rel="shortcut icon" href="https://akapril.github.io/favicon.ico?v=1673833135053">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://akapril.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3SEGRT8PNF"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-3SEGRT8PNF');
+</script>
+
+
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <div class="main-content">
+        <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Akapril
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1673833135053"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+
+        <div class="post-list-container">
+    <div class="post-inner">
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/docker-change-storage/">
+                            <span class="post-title gt-c-content-color-first">Docker修改镜像文件存储位置</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        修改docker文件存储位置
+问题
+因为服务器磁盘存储空间剩余不多，然后挂载了新的存储，需要迁移docker镜像文件。
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-13 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/9_Y9nS_xuZF/" class="post-tag">
+                                # docker
+                            </a>
+                        
+                            <a href="https://akapril.github.io/tvj3Svaro4G/" class="post-tag">
+                                # storage
+                            </a>
+                        
+                            <a href="https://akapril.github.io/DaDC-ElW8-5/" class="post-tag">
+                                # 存储位置
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/ssh-key-login/">
+                            <span class="post-title gt-c-content-color-first">SSH免密登录</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        添加hosts
+在/etc/hosts文件中添加对应主机地址已经名称:
+10.5.16.1 node1 
+10.5.16.2 node2
+10.5.16.3 node3 
+10.5.16.4 node4 
+10.5.16.5 node5 
+10.5.16.6 node6 
+
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-13 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/l-TozIcWKG3/" class="post-tag">
+                                # ssh
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/docker-install-docker-compose-install/">
+                            <span class="post-title gt-c-content-color-first">Docker以及docker-compose安装</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        基本信息
+centos 7 阿里云
+安装Docker
+使用官方脚本自动安装
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-03-30 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/9_Y9nS_xuZF/" class="post-tag">
+                                # docker
+                            </a>
+                        
+                            <a href="https://akapril.github.io/aDoqX5IrBfl/" class="post-tag">
+                                # docker-compose
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/k8s-install/">
+                            <span class="post-title gt-c-content-color-first">Kubernetes安装</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-03-30 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/QlfKxN3_jkx/" class="post-tag">
+                                # Kubernetes
+                            </a>
+                        
+                            <a href="https://akapril.github.io/tAwgRT0P_er/" class="post-tag">
+                                # k8s
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/use-canal/">
+                            <span class="post-title gt-c-content-color-first">使用canal进行mysql数据实时同步</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-03-07 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/dHmt8Bzc0Dr/" class="post-tag">
+                                # canal
+                            </a>
+                        
+                            <a href="https://akapril.github.io/7Hu_Axtt-Dk/" class="post-tag">
+                                # mysql
+                            </a>
+                        
+                            <a href="https://akapril.github.io/MpZfVGIXbwa/" class="post-tag">
+                                # canal-server
+                            </a>
+                        
+                            <a href="https://akapril.github.io/AUd1-cMed6z/" class="post-tag">
+                                # canal-adapter
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/prometheus-grafana/">
+                            <span class="post-title gt-c-content-color-first">Prometheus、Grafana安装和配置监控Java应用</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        Prometheus安装
+使用docker安装
+docker已经安装好之后，正式安装prometheus。
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-03-07 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/6cJi2cUxizP/" class="post-tag">
+                                # Prometheus
+                            </a>
+                        
+                            <a href="https://akapril.github.io/qQXucaoLuhM/" class="post-tag">
+                                # Grafana
+                            </a>
+                        
+                            <a href="https://akapril.github.io/ZsEllGJ6dLm/" class="post-tag">
+                                # Java
+                            </a>
+                        
+                            <a href="https://akapril.github.io/cNoZo_LlyNt/" class="post-tag">
+                                # spring boot
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/golang-install/">
+                            <span class="post-title gt-c-content-color-first">Golang安装</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        基本信息
+centos 7
+下载安装包
+地址：https://studygolang.com/dl
+下载对应最新安装包
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-02-19 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/oLatPv5qH/" class="post-tag">
+                                # go
+                            </a>
+                        
+                            <a href="https://akapril.github.io/dcSOzuXuJpN/" class="post-tag">
+                                # golang
+                            </a>
+                        
+                            <a href="https://akapril.github.io/mQ_ZQw9LLii/" class="post-tag">
+                                # goproxy
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/docker-rancher-drone-gitea/">
+                            <span class="post-title gt-c-content-color-first">使用drone实现自动化部署安装配置以及踩坑</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        基本信息
+centos 7 阿里云
+安装docker
+参考docker以及docker-compose安装
+安装Rancher1.x
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-02-18 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/9_Y9nS_xuZF/" class="post-tag">
+                                # docker
+                            </a>
+                        
+                            <a href="https://akapril.github.io/E_J55_rbvHL/" class="post-tag">
+                                # rancher
+                            </a>
+                        
+                            <a href="https://akapril.github.io/NigdJ6mG6x5/" class="post-tag">
+                                # drone
+                            </a>
+                        
+                            <a href="https://akapril.github.io/xNy1lSCR80D/" class="post-tag">
+                                # gitea
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/springboot-seate-multiple-datasource-mybatis-plus/">
+                            <span class="post-title gt-c-content-color-first">Nacos+Seata+Spring boot+Mybatis plus多数据源事务控制</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        问题
+使用Mybatis plus多数据源无法控制事务.
+解决
+使用Nacos为配置中心，Seata分布式事务管理.
+Nacos配置
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2019-12-12 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/cNoZo_LlyNt/" class="post-tag">
+                                # spring boot
+                            </a>
+                        
+                            <a href="https://akapril.github.io/e-cxT3ygqt8/" class="post-tag">
+                                # seata
+                            </a>
+                        
+                            <a href="https://akapril.github.io/Yn1OYSSmZiG/" class="post-tag">
+                                # mybatis plus
+                            </a>
+                        
+                            <a href="https://akapril.github.io/0aG23L1C1w6/" class="post-tag">
+                                # 多数据源
+                            </a>
+                        
+                            <a href="https://akapril.github.io/0exDVvfY5rZ/" class="post-tag">
+                                # 事务
+                            </a>
+                        
+                            <a href="https://akapril.github.io/wv1Ilvwjl0u/" class="post-tag">
+                                # nacos
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://akapril.github.io/jenkins-maven/">
+                            <span class="post-title gt-c-content-color-first">Maven安装jar到本地仓库后jenkins编译项目引用不到问题</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        问题
+maven安装jar到本地仓库后jenkins编译项目报错
+使用将jar安装到本地仓库的方法.
+安装jar到本地仓库命令
+
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2019-10-19 ·
+                        </time>
+                        
+                            <a href="https://akapril.github.io/JHVtNJnUpDb/" class="post-tag">
+                                # jenkins
+                            </a>
+                        
+                            <a href="https://akapril.github.io/hRhkRKKLg9C/" class="post-tag">
+                                # maven
+                            </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+    </div>
+</div>
+
+        <div class="pagination-container">
+    
+        <a href="https://akapril.github.io/" class="prev-page gt-a-link">上一页</a>
+    
+    
+        <a href="https://akapril.github.io/page/3/" class="prev-page gt-a-link">下一页</a>
+    
+</div>
+
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">温故而知新</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/akapril" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/deathswaltz" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://akapril.github.io" target="_blank">akapril</a>
+    </div>
+    <div>
+        Theme <a href="https://github.com/imhanjie/gridea-theme-pure" target="_blank">Pure</a>, Powered by <a
+                href="https://gridea.dev" target="_blank">Gridea</a> | <a href="https://akapril.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+</div>
+
+<script>
+  hljs.highlightAll()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
